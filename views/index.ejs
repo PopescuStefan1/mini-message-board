@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>Home Page</title>
+  </head>
+  <body>
+    <ul>
+      <% messages.forEach((message) => { %> <%- include('message', {message: message}); %> <% }); %>
+    </ul>
+  </body>
+</html>
