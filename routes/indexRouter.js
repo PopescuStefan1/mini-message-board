@@ -22,4 +22,9 @@ indexRouter.get("/new", (req, res) => {
   res.render("newMessageForm");
 });
 
+indexRouter.post("/new", (req, res) => {
+  console.log(req.body);
+  res.end();
+});
+
 export default indexRouter;
