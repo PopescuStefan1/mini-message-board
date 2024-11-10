@@ -1,1 +1,4 @@
-<li><%= message.user %>: <%= message.text %> - <%= message.added.toLocaleString() %></li>
+<li>
+  <span><%= message.user %>: <%= message.text %> - <%= message.added.toLocaleString() %> </span>
+  <a href="/message/<%= message.id %>">Details</a>
+</li>
