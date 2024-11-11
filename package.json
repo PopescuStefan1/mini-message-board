@@ -1,6 +1,9 @@
 {
   "name": "mini-message-board",
   "version": "1.0.0",
+  "engines": {
+    "node": "22.11.0"
+  },
   "main": "index.js",
   "type": "module",
   "scripts": {
