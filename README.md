@@ -16,6 +16,7 @@ A simple messageboard where users can post messages, see previously posted messa
   - **Deployment:** Railway
 
 **Live Demo**
+
 You can access the app live here: [Mini Messageboard on Railway](https://mini-message-board-production-ecd3.up.railway.app/)
 
 **Local Installation:**
@@ -46,4 +47,5 @@ npm start
     - Each message on the homepage has an "Details" link that redirects users to a detailed page showing the message text and other details.
    
 **Storage**
+
 For this simple project, data is temporarily stored in memory (in an array). The messages array is populated when the app starts and new messages are added when users submit the form.
