@@ -13,11 +13,6 @@ A simple messageboard where users can post messages, see previously posted messa
 **Technologies Used**
   - **Backend:** Node.js, Express.js
   - **View Engine:** EJS
-  - **Deployment:** Railway
-
-**Live Demo**
-
-You can access the app live here: [Mini Messageboard on Railway](https://mini-message-board-production-ecd3.up.railway.app/)
 
 **Local Installation:**
 1. **Clone the repository:**
